@@ -1,8 +1,10 @@
-import '../styles/index.css';
+import Layout from '../components/Layout/Layout';
+import React from 'react';
 
-export default () => (
-	<div className="p-4 shadow rounded bg-white">
-		<h1 className="text-purple-500 leading-normal">Next.js</h1>
-		<p className="text-gray-500">with Tailwind CSS</p>
-	</div>
-);
+export default () => {
+  return (
+    <Layout>
+      <div className="bg-black-200 "></div>
+    </Layout>
+  );
+};

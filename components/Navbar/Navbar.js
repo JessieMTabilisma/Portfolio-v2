@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ActiveLink from '../../util/ActiveLink';
+import '../../styles/index.css';
 
 const navbar = props => {
   const [isOpen, setOpen] = useState(false);
@@ -10,7 +11,7 @@ const navbar = props => {
   return (
     <header className="block w-full">
       <div className="flex z-20">
-        <div className="w-1/2 px-5 py-3 md:px-16 md:py-5">
+        <div className="w-1/2 px-5 py-3 md:px-12 md:py-5">
           <ActiveLink href="/">
             <a className="flex font-bold text-2xl">Jt.</a>
           </ActiveLink>
@@ -32,7 +33,7 @@ const navbar = props => {
             </div>
           </button>
         </div>
-        <div className="hidden md:block w-1/2 px-5 py-3 md:px-16 md:py-8 text-right">
+        <div className="hidden md:block w-1/2 px-5 py-3 md:px-12 md:py-8 text-right">
           {navItems.map(items => {
             return (
               <ActiveLink
@@ -41,7 +42,7 @@ const navbar = props => {
                 href={`${items.link}`}
               >
                 <a
-                  className="text-black-200 font-medium ml-16"
+                  className="text-black-200 font-medium ml-16 font-sub"
                   onClick={() => setOpen(!isOpen)}
                 >
                   {items.name}

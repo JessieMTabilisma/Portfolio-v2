@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -74,4 +75,10 @@ html {
 }
 .overlay-menu {
   height: calc(100vh - 6.5rem);
+}
+.font {
+  font-family: 'Playfair Display', serif;
+}
+.font-sub {
+  font-family: 'Roboto Condensed', sans-serif;
 }

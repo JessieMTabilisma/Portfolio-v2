@@ -9,6 +9,7 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 150%;
 }
 input[type='button'] {
   outline: none;
@@ -81,4 +82,12 @@ html {
 }
 .font-sub {
   font-family: 'Roboto Condensed', sans-serif;
+}
+.email {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: white;
+}
+.b-shadow {
+  box-shadow: 0px 30px 36px rgba(0, 0, 0, 0.11);
 }

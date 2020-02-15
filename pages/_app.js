@@ -9,4 +9,4 @@ class JessieTabilisma extends App {
     return <Component {...pageProps} key={router.route} />;
   }
 }
-export default withGA('UA-155165987-1', Router)(JessieTabilisma);
+export default withGA('UA-146748049-1', Router)(JessieTabilisma);

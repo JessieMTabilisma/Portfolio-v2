@@ -6,17 +6,17 @@ const navbar = props => {
   const [isOpen, setOpen] = useState(false);
   const navItems = [
     { link: '/', name: 'Projects' },
-    { link: '/about', name: 'About' }
+    { link: '/about', name: 'Contact' }
   ];
   return (
     <header className="block w-full">
       <div className="flex z-20">
-        <div className="w-1/2 px-5 py-3 md:px-12 md:py-5">
+        <div className="w-1/2 px-5 py-3 md:px-12 lg:px-20 md:py-5">
           <ActiveLink href="/">
             <a className="flex font-bold text-2xl">Jt.</a>
           </ActiveLink>
         </div>
-        <div className="w-1/2 py-4 md:py-8 md:hidden">
+        {/* <div className="w-1/2 py-4 md:py-8 md:hidden">
           <button
             onClick={() => setOpen(!isOpen)}
             type="button"
@@ -50,7 +50,7 @@ const navbar = props => {
               </ActiveLink>
             );
           })}
-        </div>
+        </div> */}
       </div>
     </header>
   );

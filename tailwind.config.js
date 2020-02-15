@@ -21,7 +21,8 @@ module.exports = {
       },
       secondwhite: '#f4f4f4',
       dark: '#422E39',
-      error: '#E3000E'
+      error: '#E3000E',
+      kaagapai: '#FAA432'
     }
   },
   variants: {},
